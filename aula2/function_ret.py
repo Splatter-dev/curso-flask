@@ -12,7 +12,7 @@ def soma(a: int, b: int) -> int:
     return resultado
 
 
-result = soma(5, 5)  # atribuição
+result = soma(5, 5)  # atribuição 
 print(result)
 
 

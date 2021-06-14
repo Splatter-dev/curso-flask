@@ -31,6 +31,7 @@ def sobre():
 
 def pao(f):
     def wrapper():
+        print('\n')
         print("(fatia superior pao)")
         f()
         print("(fatia inferior pao)")
@@ -48,4 +49,8 @@ def opa():
 
 
 x_vegan()
-opa()
+# opa()
+
+# produto('Celular')
+# sobre()
+

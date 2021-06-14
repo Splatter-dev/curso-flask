@@ -1,0 +1,3 @@
+Pega do escopo anterior, exemplo:
+
+Duas funções encadeadas, a variavel da função "filho" apontara para a variavel da função "pai"
