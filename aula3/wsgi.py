@@ -2,6 +2,7 @@ def application(environ, start_response):
     body = b"<h1>Hello world!</h1><button>click</button>"
     status = "200 OK"
     headers = [("Content-type", "text/html")]
+    print(environ['HTTP_USER_AGENT'])
     start_response(status, headers)
     return [body]
 

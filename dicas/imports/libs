@@ -1,0 +1,7 @@
+sort - pip install sort
+
+Coloca as importes na ordem correta
+
+black
+
+formata o codigo

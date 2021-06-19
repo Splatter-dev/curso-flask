@@ -1,0 +1,12 @@
+creat_app()
+
+É uma convenção. Por padrão o flask ira procurar por um instancia app.py ou uma função creat_app()
+
+
+create_app -> é a factory principal
+init_app -> factory principal de cada uma das extensões
+
+
+nunca importar o app,a não ser que seja ambiente de teste. O maximo que pode acontecer é importar create_app.
+
+importar o app pode gerar circular import

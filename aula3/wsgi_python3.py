@@ -7,7 +7,8 @@ class Index(BaseHTTPRequestHandler):
         self.send_header("Content-Type", "text/html")
         self.end_headers()
         self.wfile.write("<h1>Hello World</h1>".encode("utf-8"))
-
+        print(self.path)
+        
 
 app = HTTPServer(("0.0.0.0", 8000), Index)
 app.serve_forever()
